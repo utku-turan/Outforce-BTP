@@ -2,7 +2,7 @@
 [//]: # (Hi there,
 My name is Utku and I am working as an ABAP developer since 2007.
 To be honest, I have never been an "open-source developer". I like to keep my code and my notes to myself, but times are changing, and so should I.
-That's why, I'll try to transfer as much as I can to public repositories starting from my BTP notes. It will probably take some time.)
+Hence, I've decided to begin sharing more of my work in public repositories, starting with this repository containing my notes on BTP. It might take a while to get everything ready, as I'll need to tidy up the formatting a little bit to make them easier to understand.)
 
 Documents created by me during my SAP BTP learning journey
 
