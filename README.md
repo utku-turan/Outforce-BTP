@@ -5,4 +5,5 @@ My resources:
 learning.sap.com
 open.sap.com
 
-Please do not hesitate to get in touch with me via utku.turan(@)outforce.tech if you have any questions or requests.
+Feel free to contact me at utku.turan(@)outforce.tech for any inquiries.
+Cheers
