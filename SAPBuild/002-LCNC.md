@@ -1,1 +1,5 @@
-![image](https://github.com/utku-turan/Learning-BTP/assets/73386835/0af6e744-6c4c-4a10-893b-160f94200c03)
+Low development skills + Low Flexibility requirement -> No-code with pre-built content usage
+High development skills + Low Flexibility requirement -> Low-code tools
+
+Low developent skills + High Flexibility requirement -> Hybrid model (LCNC + Pro-code)
+High development skills + High Flexibility requirement -> Pro-code
