@@ -3,7 +3,15 @@ SAP Build is SAP's low-code offering built on SAP Business Technology Platform (
 It can be used to create enterprise applications, automate processes, and design business sites with drag-and-drop simplicity.
 SAP's Introduction to SAP Build video: https://youtu.be/tOGT7uJed8Y
 
+SAP Build currently has 3 major tools/capailities:
+With the help of SAP Build Apps, citizen developers can easily create and deploy front-end applications with custom functionality, stand-alone apps, and even side-by-side extensions to S/4HANA.
+SAP Build Process Automation lets business users adapt, improve, and innovate business processes without any coding, and with the ability to connect to SAP Workflow Management, SAP Intelligent Robotic Process Automation , and embedded Al capabilities.
+SAP Build Work Zone can be used by IT professionals and business users to build business sites to provide access points to relevant applications, processes, and information.
+
 ## Details of SAP Build
+
+Discover plenty of pre-built content packages for SAP Build in the SAP Build Content Catalog: https://store.build.cloud.sap/store
+
 
 ## What is Hyperautomation?
 
@@ -13,6 +21,8 @@ No-code simplifies by using visual development tools like drag-and-drop, accessi
 For details, click here.
 
 ### Developer Types
+Professional developers -> IT professionals building apps or automations faster using SAP Build, with the ability to quickly prototype and test ideas.
+Citizen developers -> Business users using SAP Build to build apps or process automations.
 
 ### Governance
 
