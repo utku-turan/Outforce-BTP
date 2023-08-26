@@ -3,11 +3,14 @@ SAP Build is SAP's low-code offering built on SAP Business Technology Platform (
 It can be used to create enterprise applications, automate processes, and design business sites with drag-and-drop simplicity.
 SAP's Introduction to SAP Build video: https://youtu.be/tOGT7uJed8Y
 
-### Details of SAP Build
+## Details of SAP Build
 
 ## What is Hyperautomation?
 
-## What is Low-code No-code development?
+## What is Low-code / No-code development?
+Low-code combines traditional programming language-based environment with no-code platforms, suitable for developers with at least basic tech skills.
+No-code simplifies by using visual development tools like drag-and-drop, accessible to tech and non-tech users, such as citizen developers.
+For details, click here.
 
 ### Developer Types
 
