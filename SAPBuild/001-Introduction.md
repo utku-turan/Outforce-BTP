@@ -31,8 +31,9 @@ Citizen developers -> Business users using SAP Build to build apps or process au
 # Main tools of SAP Build
 
 ## SAP Build Process Automation
+SAP Build Process Automation empowers you to create workflows and automate everyday tasks without needing to write code. It offers a streamlined and efficient approach to automating business processes. Through its user-friendly, no-code interface, you can seamlessly craft workflow management and robotic process automation (RPA) solutions. These include integrated AI for decision support and document handling, all achieved without the need for coding.
+
 ### What is a Business process?
-### Steps of Business processes
 ### Business Process Management
 ### What is an Automation?
 ### Product capabilities
