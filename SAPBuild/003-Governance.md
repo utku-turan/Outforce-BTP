@@ -38,6 +38,9 @@ This CoE should be responsible of:
 - Fusion Development: Co-creation models and capabilities that promote collaboration between IT, Line of Business (LoB) developers, and citizen developers.
 - Operationalized Governance: establishing and leveraging CoE and Community of Practice (CoP) frameworks, and using methods and toolkits to effectively enable builders of all skill levels.
 
+The CoE could initiate with a pilot phase to gather practical insights, followed by strategizing and implementing the broader rollout.
+Pilot -> Set Strategy -> Prepare Rollout -> Rollout
+
 ### Toolkit
 SAP provides a pre-built Digital Center of Excellence toolkit for SAP Build.
 The toolkit will help IT admins to manage and collaborate with citizen developers and to create an entry point for everything low-code builders need to be successful.
