@@ -35,7 +35,8 @@ Details of [Governance in BTP](SAPBuild/003-Governance.md).
 # Main tools of SAP Build
 
 ## SAP Build Process Automation
-SAP Build Process Automation empowers you to create workflows and automate everyday tasks without needing to write code. It offers a streamlined and efficient approach to automating business processes. Through its user-friendly, no-code interface, you can seamlessly craft workflow management and robotic process automation (RPA) solutions. These include integrated AI for decision support and document handling, all achieved without the need for coding.
+***SAP Build Process Automation*** empowers you to create workflows and automate everyday tasks without needing to write code. It offers a streamlined and efficient approach to automating business processes.<br> 
+Through its user-friendly, no-code interface, you can seamlessly craft workflow management and robotic process automation (RPA) solutions. These include integrated AI for decision support and document handling, all achieved without the need for coding.<br>
 
 ### What is a Business process?
 ### Business Process Management
@@ -77,18 +78,17 @@ SAP Build Process Automation empowers you to create workflows and automate every
 ### Pre-built Content
 
 ## Training materials on SAP Build
-Beginners
-https://learning.sap.com/learning-journey/utilize-sap-build-for-low-code-no-code-applications-and-automations-for-citizen-developers
-Advanced
-https://learning.sap.com/learning-journey/compose-and-automate-with-sap-build-the-no-code-way
-https://learning.sap.com/learning-journey/create-processes-and-automations-with-sap-build-process-automation
-https://learning.sap.com/learning-journey/develop-apps-with-sap-build-apps-using-drag-and-drop-simplicity
-Tutorials
-https://developers.sap.com/tutorial-navigator.html?tag=software-product%3Atechnology-platform%2Fsap-build%2Fsap-build-apps-enterprise-edition
-Additional resources
-AppGyver No-Code Academy - https://youtube.com/playlist?list=PLV9VMatP3XOjMgp84HLgiia_xGJzyqSKn
-SAP Build App Programming 101 - https://youtube.com/playlist?list=PLV9VMatP3XOhlq34LEB2PIqWPLSrb99ft
+> Beginner<br>
+<https://learning.sap.com/learning-journey/utilize-sap-build-for-low-code-no-code-applications-and-automations-for-citizen-developers><br>
+> Advanced<br>
+<https://learning.sap.com/learning-journey/compose-and-automate-with-sap-build-the-no-code-way><br>
+<https://learning.sap.com/learning-journey/create-processes-and-automations-with-sap-build-process-automation><br>
+<https://learning.sap.com/learning-journey/develop-apps-with-sap-build-apps-using-drag-and-drop-simplicity><br>
+> Tutorials<br>
+<https://developers.sap.com/tutorial-navigator.html?tag=software-product%3Atechnology-platform%2Fsap-build%2Fsap-build-apps-enterprise-edition><br>
+> Additional resources<br>
+[AppGyver No-Code Academy](https://youtube.com/playlist?list=PLV9VMatP3XOjMgp84HLgiia_xGJzyqSKn)<br>
+[SAP Build App Programming 101](https://youtube.com/playlist?list=PLV9VMatP3XOhlq34LEB2PIqWPLSrb99ft)<br>
 
 ### SAP Certification on SAP Build
-C_LCNC_02 - SAP Certified Citizen Developer Associate - SAP Build Low-code/No-code Applications and Automations
-https://learning.sap.com/certification/sap-certified-citizen-developer-associate-sap-build-low-code-no-code-applications-and-automations
+> [C_LCNC_02 - SAP Certified Citizen Developer Associate - SAP Build Low-code/No-code Applications and Automations](https://learning.sap.com/certification/sap-certified-citizen-developer-associate-sap-build-low-code-no-code-applications-and-automations)<br>
