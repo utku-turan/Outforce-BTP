@@ -3,7 +3,10 @@ Notes & training materials on SAP BTP
 
 | ***The List***|
 | ----------- |
+|SAP BTP Basics|
 | [SAP Build](SAPBuild/001-Introduction.md)|
+|SAP Integration Suite|
+|SAP Extension Suite|
 
 
 My training resources:<br> 
