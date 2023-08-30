@@ -32,5 +32,15 @@ SAP Build Process Automation provides the following product functionalities:
 > - Pre-built Content
 
 ## Lobby
+Using the Lobby, you have the capability to create, manage, and deploy business processes and action projects that encapsulate APIs as integral components within your business scenarios. The project lists view enables you to assess existing projects or initiate new ones. You can effortlessly refresh, rearrange, filter based on type or collaborators, and execute actions like release, publication, and sharing.
+
+Within the lobby, you have the ability to access and engage with various project capabilities, which encompass the following:
+- **Store**: This area provides access to pre-constructed process automation content.
+- **Monitor**: Here, you can oversee deployed workflows, automation tasks, and events.
+- **Settings**: In this section, you can examine project details that have been deployed and configure agents.
+- **My Inbox**: This designated space enables you to manage tasks from both desktop and mobile devices.
+
+A screenshot of the lobby:
 
 
+## Using Conditions to Control the Flow
