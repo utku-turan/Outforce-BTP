@@ -39,10 +39,12 @@ Details of [Governance in BTP](SAPBuild/003-Governance.md).
 Through its user-friendly, no-code interface, you can seamlessly craft workflow management and robotic process automation (RPA) solutions. These include integrated AI for decision support and document handling, all achieved without the need for coding.<br>
 
 ### What is a Business process?
-SAP's definition of Business Process
-For details, check here.
+SAP's definition of Business Process<br>
+For details, check [here](SAPBuild/005-BusinessProcess.md).<br>
 
 ### Business Process Management
+Details of BPM and BPMS from SAP Build perspective can be found [here](SAPBuild/005-BusinessProcess.md#business-process-management-bpm).<br>
+
 ### What is an Automation?
 ### Product capabilities
 ### Process Visibility
