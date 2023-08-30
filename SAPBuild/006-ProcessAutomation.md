@@ -72,3 +72,17 @@ To ensure a decisive output for all varieties of sales orders, consider adding a
 
 > [Here](https://education.hana.ondemand.com/education/pub/mmcp/index.html?show=project!PR_EE279D39FC3840A1:demo#TS_5D8AC4879BBB4A488802DA6DD4BEE8E4) is the link to SAP's  demo for creating and configuring Decision Logic in the process.<br>
 > And here is the [video]().
+
+## Robotic Process Automation
+Robotic process automation (RPA) is a software technology that makes it easy to build, deploy, and manage software robots that emulate humans actions interacting with digital systems and software.<br>
+Automations can expedite your processes and mitigate the risk of errors associated with manual data transfers.<br>
+
+Task automation can run in two ways:
+- *Unattended mode*: Bots are working autonomously with human supervision only – there is no human intervention in the part of the process RPA is running.
+- *Attended mode*: The attended mode, in which bots will work with humans to assist them, to help the bot.
+
+The ***Automation Editor*** of SAP Build Pro is composed of four main parts: 
+- The Toolbar: save, undo, redo, delete, test
+- The Workflow: the list of steps inside your automation
+- The Right-Side Panel:  add steps, check inputs and outputs, automations, activities, data, controls
+- The Console: Design and test console, errors and warnings, variables
