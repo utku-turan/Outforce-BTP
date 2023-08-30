@@ -55,7 +55,11 @@ Let's take a look at some important [Topics](006-ProcessAutomation.md) regarding
 ### Process Visibility
 Uncover the status of your process through the [visibility functionalities](007-ProcessVisibility.md) offered by SAP Build Process Automation.<br>
 
+And, here are the most important hands-on topics of SAP Build Process Automation.<br>
+
 ### Interactive Forms
+You can use an [interactive form](008-InteractiveForms.md) to trigger a process to start or to add an approval step in the process.<br>
+
 ### Automations
 
 ## SAP Build Apps
