@@ -46,13 +46,15 @@ For details, check [here](005-BusinessProcess.md).<br>
 Details of BPM and BPMS from SAP Build perspective can be found [here](005-BusinessProcess.md#business-process-management-bpm).<br>
 
 ## SAP Build Process Automation Details
-[Details](006-ProcessAutomation.md) of the product.
-> - Capabilities
-> - Lobby
-> - Conditions
-> - Decision Logic
+Let's take a look at some important [Topics](006-ProcessAutomation.md) regarding the SAP Build Process Automation Product.
+> - [Capabilities](006-ProcessAutomation.md#product-capabilities)
+> - [Lobby](006-ProcessAutomation.md#Lobby)
+> - [Conditions](006-ProcessAutomation.md#using-conditions-to-control-the-flow)
+> - [Decision Logic](006-ProcessAutomation.md#create-and-configure-decision-logic-in-the-process)
 
 ### Process Visibility
+Uncover the status of your process through the [visibility functionalities](007-ProcessVisibility.md) offered by SAP Build Process Automation.<br>
+
 ### Interactive Forms
 ### Automations
 
