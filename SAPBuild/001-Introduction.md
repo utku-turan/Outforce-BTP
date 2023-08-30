@@ -12,7 +12,7 @@ Here is the famous slide from SAP on SAP Build:<br>
 ![image](https://github.com/utku-turan/Learning-BTP/assets/73386835/1e32ff7b-7a0e-4a39-9fe5-5f20c8aea98b)
 
 ## Details of SAP Build
-[Here](/004-SAPBuildDetails.md) you can find more information on details of SAP Build.
+[Here](./004-SAPBuildDetails.md) you can find more information on details of SAP Build.
 
 You can also discover plenty of pre-built content packages for SAP Build in the SAP Build Content Catalog: <https://store.build.cloud.sap/store>
 
