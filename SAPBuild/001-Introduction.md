@@ -57,7 +57,7 @@ Uncover the status of your process through the [visibility functionalities](007-
 
 ### Robotic Process Automation
 SAP Build RPA is the new product replacing (or rebranding) SAP Intelligent RPA.<br>
-You can some details [here](006-ProcessAutomation.md#robotic-process-automation).<br>
+You can find some details [here](006-ProcessAutomation.md#robotic-process-automation).<br>
 
 ## Hands-on
 And, here are the most important hands-on topics of SAP Build Process Automation:<br>
@@ -66,6 +66,12 @@ And, here are the most important hands-on topics of SAP Build Process Automation
 You can use an [interactive form](008-InteractiveForms.md) to trigger a process to start or to add an approval step in the process.<br>
 
 ### Automations
+> You can check this [step-by-step guide]() on how to create an automation that reads some records from an Excel file and processes according to a condition.<br>
+
+> Next video guides you on how to [register a Desktop agent]().<br>
+
+> And this last one shows you how to [run the process]().<br>
+
 
 
 ## SAP Build Apps
