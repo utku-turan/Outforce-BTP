@@ -46,8 +46,12 @@ For details, check [here](SAPBuild/005-BusinessProcess.md).<br>
 Details of BPM and BPMS from SAP Build perspective can be found [here](SAPBuild/005-BusinessProcess.md).<br>
 
 ## SAP Build Process Automation Details
-Details of the product.
-### Product capabilities
+[Details](SAPBuild/006-ProcessAutomation.md) of the product.
+> - Capabilities
+> - Lobby
+> - Conditions
+> - Decision Logic
+
 ### Process Visibility
 ### Interactive Forms
 ### Automations
