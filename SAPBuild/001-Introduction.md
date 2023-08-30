@@ -21,7 +21,7 @@ You can also discover plenty of pre-built content packages for SAP Build in the 
 ## What is Low-code / No-code development?
 ***Low-code*** combines traditional programming language-based environment with no-code platforms, suitable for developers with at least basic tech skills.<br>
 ***No-code*** simplifies by using visual development tools like drag-and-drop, accessible to tech and non-tech users, such as citizen developers.<br>
-For details, you can check [here](SAPBuild/002-LCNC.md).
+For details, check [here](SAPBuild/002-LCNC.md).
 
 ### Developer Types
 - Professional developers -> IT professionals building apps or automations faster using SAP Build, with the ability to quickly prototype and test ideas.
@@ -39,6 +39,9 @@ Details of [Governance in BTP](SAPBuild/003-Governance.md).
 Through its user-friendly, no-code interface, you can seamlessly craft workflow management and robotic process automation (RPA) solutions. These include integrated AI for decision support and document handling, all achieved without the need for coding.<br>
 
 ### What is a Business process?
+SAP's definition of Business Process
+For details, check here.
+
 ### Business Process Management
 ### What is an Automation?
 ### Product capabilities
