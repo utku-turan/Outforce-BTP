@@ -43,13 +43,12 @@ SAP's definition of Business Process<br>
 For details, check [here](SAPBuild/005-BusinessProcess.md).<br>
 
 ### Business Process Management
-Details of BPM and BPMS from SAP Build perspective can be found [here](SAPBuild/005-BusinessProcess.md#business-process-management-bpm).<br>
-
-### What is an Automation?
-### Product capabilities
-### Process Visibility
+Details of BPM and BPMS from SAP Build perspective can be found [here](SAPBuild/005-BusinessProcess.md).<br>
 
 ## SAP Build Process Automation Details
+Details of the product.
+### Product capabilities
+### Process Visibility
 ### Interactive Forms
 ### Automations
 
