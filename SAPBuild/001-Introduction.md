@@ -17,6 +17,7 @@ Here is the famous slide from SAP on SAP Build:<br>
 You can also discover plenty of pre-built content packages for SAP Build in the SAP Build Content Catalog: <https://store.build.cloud.sap/store>
 
 ## What is Hyperautomation?
+Hyperautomation refers to the use of smart technologies to identify and automate as many processes as possible – as quickly as possible. The term hyperautomation describes a *strategy* more than a specific technology. The driving force behind it is the idea that *business processes work better when they are automated*. Automated business processes are faster and more accurate, plus they lend themselves to better tracking and analysis. Essentially, hyperautomation refers to the use of *smart technologies* like robotic process automation (RPA), low-code/no-code (LCNC) platforms, artificial intelligence (AI), and machine learning to identify and automate as many processes as possible – as quickly as possible.
 
 ## What is Low-code / No-code development?
 ***Low-code*** combines traditional programming language-based environment with no-code platforms, suitable for developers with at least basic tech skills.<br>
@@ -39,7 +40,7 @@ Details of [Governance in BTP](003-Governance.md).
 Through its user-friendly, no-code interface, you can seamlessly craft workflow management and robotic process automation (RPA) solutions. These include integrated AI for decision support and document handling, all achieved without the need for coding.<br>
 
 ### What is a Business process?
-SAP's definition of Business Process<br>
+A business process refers to a set of activities that have to be performed to complete an end-to-end business scenario.<br>
 For details, check [here](005-BusinessProcess.md).<br>
 
 ### Business Process Management
@@ -70,11 +71,21 @@ You can use an [interactive form](008-InteractiveForms.md) to trigger a process 
 
 > Next video guides you on how to [register a Desktop agent]().<br>
 
-> And this last one shows you how to [run the process]().<br>
+> And this one shows you how to [run the process]().<br>
 
+> Another example of [Process Automation]<br>
 
 
 ## SAP Build Apps
+SAP Build Apps, previously known as *SAP AppGyver*, represents a visual development solution enabling the creation of sophisticated enterprise applications without coding. SAP Build Apps provides the capability to construct both *Web & Mobile Applications*, encompassing front-end user interfaces and event logic, as well as *Application Backends*, which involve back-end data management and server-based logic.
+
+This tool facilitates:
+- Visual construction and personalization of enterprise apps. (dragging and dropping pre-built components and then configuring them to your needs.)
+- Seamless integration with both SAP and non-SAP systems. (connect to all types of backend data, including SAP systems, via SAP BTP destinations.)
+- Create data models and application logic, also by dragging and dropping flow functions and configuring them.
+- Promotion of collaborative efforts among fusion teams.
+- Learn quickly with in-product guided help and learning modules.
+
 ### SAP Build Apps and its capabilities
 ### Using SAP Build Apps
 
