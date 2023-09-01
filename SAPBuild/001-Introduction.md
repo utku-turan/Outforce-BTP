@@ -86,7 +86,9 @@ This tool facilitates:
 - Promotion of collaborative efforts among fusion teams.
 - Learn quickly with in-product guided help and learning modules.
 
-### SAP Build Apps and its capabilities
+[Additional Info](009-SAPBuildApps.md)
+### SAP Build Apps Capabilities
+[Capabilities](009-SAPBuildApps.md#Capabilities)
 ### Using SAP Build Apps
 
 ## Creating an App with SAP Build Apps
