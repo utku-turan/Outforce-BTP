@@ -90,6 +90,7 @@ This tool facilitates:
 ### SAP Build Apps Capabilities
 [Capabilities](009-SAPBuildApps.md#Capabilities)
 ### Using SAP Build Apps
+[Here](010-BuildAppsParts.md) you can find information about the parts of the SAP Build Apps tool.<md> 
 
 ## Creating an App with SAP Build Apps
 ### Extending an App with an API
