@@ -93,7 +93,7 @@ This tool facilitates:
 [Here](010-BuildAppsParts.md) you can find information about the parts of the SAP Build Apps tool.<md> 
 
 ## Creating an App with SAP Build Apps
-[Here](010-BuildAppsParts.md#AppExample) is an example on how to create an app using SAP Build Apps.
+[Here](010-BuildAppsParts.md#AppExample) is an example on how to create an app using SAP Build Apps.<br>
 Steps:
 - Create a new project.
 - Create the UI.
@@ -102,8 +102,11 @@ Steps:
 - Fetch data from the API.
 - Display data from the API.
 
+And another example can be found [here](010-BuildAppsParts.md#Another-App-Example).
 
 ### Extending an App with an API
+In this [video](), you can see how to integrate with the API by creating a data resource. Data resources serve as connectors between data sources, such as APIs, and the application.
+
 ### Developing a No-Code Extension With SAP Build Apps
 
 ## SAP Build Work Zone
