@@ -88,7 +88,7 @@ This tool facilitates:
 
 [Additional Info](009-SAPBuildApps.md)
 ### SAP Build Apps Capabilities
-[Capabilities](009-SAPBuildApps.md#Capabilities)
+And let's take a look at the [Capabilities](009-SAPBuildApps.md#Capabilities) of SAP Build Apps.
 ### Using SAP Build Apps
 [Here](010-BuildAppsParts.md) you can find information about the parts of the SAP Build Apps tool.<md> 
 
@@ -108,10 +108,21 @@ And another example can be found [here](010-BuildAppsParts.md#Another-App-Exampl
 In this [video](), you can see how to integrate with the API by creating a data resource. Data resources serve as connectors between data sources, such as APIs, and the application.
 
 ### Developing a No-Code Extension With SAP Build Apps
+[This]() scenario involves an extension to the SAP Sales Cloud, with the following steps:
+- Create a new SAP Build App to display the appointments
+- Make a connection from the SAP Build App to the SAP Sales Cloud OData API to extract the appointment data
+- Configure the SAP Build App to display the appointments data
 
 ## SAP Build Work Zone
-### What is SAP Build Work Zone?
+Using SAP Build Work Zone, you can easily build ***integrated business sites*** that are consistent and engaging across all channels, business processes, and applications to increase productivity, engagement, and efficiency. It combines various content types, tools, systems, and channels. The goal is to help employees quickly and easily find the necessary information, stay informed on business updates, execute tasks, exchange information with their teams, and access relevant reports and alerts.
+![image](https://github.com/utku-turan/Learning-BTP/assets/73386835/6d821a6f-eb10-4917-a924-fdb2108183e2)
+
 ### Work Zone Editions
+Currently, 2 editions are available: standard and advanced.<br>
+DEtails can be found [here]().
+> - *Standard Edition* allows you to create an (SAP) application-centric entry point, providing a harmonized user experience layer that integrates applications, tasks, and notifications. The setup and configuration process provides an IT administrator-centric experience, allowing for flexible role-based setups.
+> - The *Advanced Edition* offers additional features, such as powerful page-building and content-authoring tools, interactive workspaces, and the ability to blend business data with structured and unstructured information. Application-centric experience with web content, documents and knowledge sharing as well as user engagement in discussion forums, feeds, etc. are also additional capabilities of Advanced Edition.
+
 ### Work Zone Capabilities and Use cases
 ### Integration scenarios and Patterns
 
