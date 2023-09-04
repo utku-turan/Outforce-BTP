@@ -118,13 +118,14 @@ Using SAP Build Work Zone, you can easily build ***integrated business sites*** 
 
 ### Work Zone Editions
 Currently, 2 editions are available: standard and advanced.<br>
-Details can be found [here](011-SAPBuildWorkZone.md#Editions).
+Details can be found [here](011-SAPBuildWorkZone.md#Editions).<br>
 
 ### Capabilities and Use cases
-Capabilities of SAP Build Work Zone can be found [here](011-SAPBuildWorkZone.md#Capabilities)
-For use cases, check [here](011-SAPBuildWorkZone.md#key-use-cases).
+Capabilities of SAP Build Work Zone can be found [here](011-SAPBuildWorkZone.md#Capabilities).<br>
+For use cases, check [here](011-SAPBuildWorkZone.md#key-use-cases).<br>
 ### Integration scenarios and Patterns
-please check [here](011-SAPBuildWorkZone.md#Integration-scenarios-and-patterns).
+Please check [here](011-SAPBuildWorkZone.md#Integration-scenarios-and-patterns).<br>
+
 ## SAP Build Work Zone Features
 ### Administrative Areas
 ### Homepages
