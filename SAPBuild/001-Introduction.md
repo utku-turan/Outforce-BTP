@@ -115,17 +115,16 @@ In this [video](), you can see how to integrate with the API by creating a data 
 
 ## SAP Build Work Zone
 Using SAP Build Work Zone, you can easily build ***integrated business sites*** that are consistent and engaging across all channels, business processes, and applications to increase productivity, engagement, and efficiency. It combines various content types, tools, systems, and channels. The goal is to help employees quickly and easily find the necessary information, stay informed on business updates, execute tasks, exchange information with their teams, and access relevant reports and alerts.
-![image](https://github.com/utku-turan/Learning-BTP/assets/73386835/6d821a6f-eb10-4917-a924-fdb2108183e2)
 
 ### Work Zone Editions
 Currently, 2 editions are available: standard and advanced.<br>
-DEtails can be found [here]().
-> - *Standard Edition* allows you to create an (SAP) application-centric entry point, providing a harmonized user experience layer that integrates applications, tasks, and notifications. The setup and configuration process provides an IT administrator-centric experience, allowing for flexible role-based setups.
-> - The *Advanced Edition* offers additional features, such as powerful page-building and content-authoring tools, interactive workspaces, and the ability to blend business data with structured and unstructured information. Application-centric experience with web content, documents and knowledge sharing as well as user engagement in discussion forums, feeds, etc. are also additional capabilities of Advanced Edition.
+Details can be found [here](011-SAPBuildWorkZone.md#Editions).
 
-### Work Zone Capabilities and Use cases
+### Capabilities and Use cases
+Capabilities of SAP Build Work Zone can be found [here](011-SAPBuildWorkZone.md#Capabilities)
+For use cases, check [here](011-SAPBuildWorkZone.md#key-use-cases).
 ### Integration scenarios and Patterns
-
+please check [here](011-SAPBuildWorkZone.md#Integration-scenarios-and-patterns).
 ## SAP Build Work Zone Features
 ### Administrative Areas
 ### Homepages
