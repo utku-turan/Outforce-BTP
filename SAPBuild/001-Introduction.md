@@ -174,12 +174,51 @@ You can extend SAP Build Work Zone with:
 Details can be found [here](011-SAPBuildWorkZone#Extending-work-zone).<br>
 
 ## Continue your SAP Build Learning Journey
-
 ### Discover Use cases for LCNC Apps and Automations
+Discovering potential scenarios for implementing low-code/no-code solutions can be approached in several ways:
+- Address Daily Pain Points
+- Industry-Specific Compliance
+- Leverage Pre-Built Content
+
+Details can be found [here](012-ContinueJourney.md#Potential-scenarios)
+
+Low-code/no-code platforms empower you to build, adapt, enhance, and innovate various business processes with minimal reliance on IT. Here are some illustrative examples:
+- Automate Repetitive Tasks
+- Digitalize Manual Processes
+- Manage High-Volume Tasks
+- Aggregate Data
+- Enhance Standard Business Flows
+- Cross-Application Workflows
+
+For details, please check [here](012-ContinueJourney.md#LCNC-use-cases)
 
 ### Maturity of Automations
+Stages of automation maturity are:
+- Non-standardized
+- Standardized
+- Automated
+- Optimized
+- Hyperautomated
+
+
+To align your use cases with different stages of automation maturity, consider the following topics, which can also be applied to your organization's overall state.
+- Use Case Maturity
+- Interaction with Automation
+    - Ad Hoc Changes
+    - Integration Opportunity
+    - Standardization
+    - Advanced Integration
+- Understanding Complexity
+    - Collaboration & Access
+    - Timing
+    - Routes
+    - Data & Metrics
+
+For details, please check [here](012-ContinueJourney.md#maturity-of-automations)
 
 ### Pre-built Content
+The easiest way to get started to SAP Build is to use pre-built content.<br> 
+Details can be found [here](012-ContinueJourney.md#pre-built-content).<br>
 
 ## Training materials on SAP Build
 > Beginner<br>
