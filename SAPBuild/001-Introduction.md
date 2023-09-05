@@ -137,31 +137,31 @@ Details can be found [here](011-SAPBuildWorkZone.md#Features).
 
 ### Administrative Areas
 It lets you create a dedicated environment for content management and collaboration within a defined scope, like a particular business department such as HR, IT, finance, procurement, and others.<br>
-Details can be found [here](011-SAPBuildWorkZone#Administrative-areas).<br>
+Details can be found [here](011-SAPBuildWorkZone#administrative-areas).<br>
 
 ### Homepages
 Homepages serve as the default landing page for all users when they access SAP Build Work Zone. They can vary depending on user personas or roles.<br>
-For details, please check [here](011-SAPBuildWorkZone#Homepages).<br>
+For details, please check [here](011-SAPBuildWorkZone#homepages).<br>
 
 ### Workspaces
 Workspaces serve as crucial components that facilitate various use cases and offer a wide array of features, encompassing content management, forums, and adaptable page design.<br>
-You can find the details [here](011-SAPBuildWorkZone#Workspaces).<br>
+You can find the details [here](011-SAPBuildWorkZone#workspaces).<br>
 
 ### Workpages
 SAP Build Work Zone offers various page types designed to foster an engaging user experience. These page types are versatile and can be employed within all workspace types, whether they are public, private, or external.
 
 The "workpage" serves as the centerpiece of any workspace. It leverages a no-code page design approach, allowing users to seamlessly incorporate both structured business data and unstructured web content using a variety of widgets.
 
-Details of Workpages can be found [here](011-SAPBuildWorkZone#Workpages).<br>
-For Workpage types, please check [here](011-SAPBuildWorkZone#Workpage-types).<br>
-And information regarding the different types of sections can be found [here](011-SAPBuildWorkZone#Sections).<br>
+Details of Workpages can be found [here](011-SAPBuildWorkZone#workpages).<br>
+For Workpage types, please check [here](011-SAPBuildWorkZone#workpage-types).<br>
+And information regarding the different types of sections can be found [here](011-SAPBuildWorkZone#sections).<br>
 
 ### Launchpad & Integration Cards
 SAP Build Work Zone incorporates an integrated *launchpad*, which streamlines access to various business applications within your digital workplace, offering users a unified and convenient hub for accessing these applications.<br>
-Details of it can be found [here](011-SAPBuildWorkZone#Launchpad).<br>
+Details of it can be found [here](011-SAPBuildWorkZone#launchpad).<br>
 
 UI Integration cards can surface data from connected SAP and third-party business applications and present the information on the page in various designs and layouts.<br>
-Their [details](011-SAPBuildWorkZone#UI-integration-cards).<br>
+Their [details](011-SAPBuildWorkZone#ui-integration-cards).<br>
 
 ### Extending Work Zone
 You can extend SAP Build Work Zone with:
@@ -171,7 +171,7 @@ You can extend SAP Build Work Zone with:
 - Launchpad (Shell) plugins
 - Integration with SAP Conversational AI
 
-Details can be found [here](011-SAPBuildWorkZone#Extending-work-zone).<br>
+Details can be found [here](011-SAPBuildWorkZone#extending-work-zone).<br>
 
 ## Continue your SAP Build Learning Journey
 ### Discover Use cases for LCNC Apps and Automations
@@ -180,7 +180,7 @@ Discovering potential scenarios for implementing low-code/no-code solutions can 
 - Industry-Specific Compliance
 - Leverage Pre-Built Content
 
-Details can be found [here](012-ContinueJourney.md#Potential-scenarios)
+Details can be found [here](012-ContinueJourney.md#potential-scenarios)
 
 Low-code/no-code platforms empower you to build, adapt, enhance, and innovate various business processes with minimal reliance on IT. Here are some illustrative examples:
 - Automate Repetitive Tasks
@@ -190,7 +190,7 @@ Low-code/no-code platforms empower you to build, adapt, enhance, and innovate va
 - Enhance Standard Business Flows
 - Cross-Application Workflows
 
-For details, please check [here](012-ContinueJourney.md#LCNC-use-cases)
+For details, please check [here](012-ContinueJourney.md#lcnc-use-cases)
 
 ### Maturity of Automations
 Stages of automation maturity are:
@@ -214,7 +214,7 @@ To align your use cases with different stages of automation maturity, consider t
     - Routes
     - Data & Metrics
 
-For details, please check [here](012-ContinueJourney.md#maturity-of-automations)
+For details, please check [here](012-ContinueJourney.md#maturity-of-automation)
 
 ### Pre-built Content
 The easiest way to get started to SAP Build is to use pre-built content.<br> 
