@@ -137,31 +137,31 @@ Details can be found [here](011-SAPBuildWorkZone.md#Features).
 
 ### Administrative Areas
 It lets you create a dedicated environment for content management and collaboration within a defined scope, like a particular business department such as HR, IT, finance, procurement, and others.<br>
-Details can be found [here](011-SAPBuildWorkZone#administrative-areas).<br>
+Details can be found [here](011-SAPBuildWorkZone.md#administrative-areas).<br>
 
 ### Homepages
 Homepages serve as the default landing page for all users when they access SAP Build Work Zone. They can vary depending on user personas or roles.<br>
-For details, please check [here](011-SAPBuildWorkZone#homepages).<br>
+For details, please check [here](011-SAPBuildWorkZone.md#homepages).<br>
 
 ### Workspaces
 Workspaces serve as crucial components that facilitate various use cases and offer a wide array of features, encompassing content management, forums, and adaptable page design.<br>
-You can find the details [here](011-SAPBuildWorkZone#workspaces).<br>
+You can find the details [here](011-SAPBuildWorkZone.md#workspaces).<br>
 
 ### Workpages
 SAP Build Work Zone offers various page types designed to foster an engaging user experience. These page types are versatile and can be employed within all workspace types, whether they are public, private, or external.
 
 The "workpage" serves as the centerpiece of any workspace. It leverages a no-code page design approach, allowing users to seamlessly incorporate both structured business data and unstructured web content using a variety of widgets.
 
-Details of Workpages can be found [here](011-SAPBuildWorkZone#workpages).<br>
-For Workpage types, please check [here](011-SAPBuildWorkZone#workpage-types).<br>
-And information regarding the different types of sections can be found [here](011-SAPBuildWorkZone#sections).<br>
+Details of Workpages can be found [here](011-SAPBuildWorkZone.md#workpages).<br>
+For Workpage types, please check [here](011-SAPBuildWorkZone.md#workpage-types).<br>
+And information regarding the different types of sections can be found [here](011-SAPBuildWorkZone.md#sections).<br>
 
 ### Launchpad & Integration Cards
 SAP Build Work Zone incorporates an integrated *launchpad*, which streamlines access to various business applications within your digital workplace, offering users a unified and convenient hub for accessing these applications.<br>
-Details of it can be found [here](011-SAPBuildWorkZone#launchpad).<br>
+Details of it can be found [here](011-SAPBuildWorkZone.md#launchpad).<br>
 
 UI Integration cards can surface data from connected SAP and third-party business applications and present the information on the page in various designs and layouts.<br>
-Their [details](011-SAPBuildWorkZone#ui-integration-cards).<br>
+Their [details](011-SAPBuildWorkZone.md#ui-integration-cards).<br>
 
 ### Extending Work Zone
 You can extend SAP Build Work Zone with:
@@ -171,7 +171,7 @@ You can extend SAP Build Work Zone with:
 - Launchpad (Shell) plugins
 - Integration with SAP Conversational AI
 
-Details can be found [here](011-SAPBuildWorkZone#extending-work-zone).<br>
+Details can be found [here](011-SAPBuildWorkZone.md#extending-work-zone).<br>
 
 ## Continue your SAP Build Learning Journey
 ### Discover Use cases for LCNC Apps and Automations
@@ -199,7 +199,6 @@ Stages of automation maturity are:
 - Automated
 - Optimized
 - Hyperautomated
-
 
 To align your use cases with different stages of automation maturity, consider the following topics, which can also be applied to your organization's overall state.
 - Use Case Maturity
