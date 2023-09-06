@@ -86,7 +86,15 @@ This tool facilitates:
 - Promotion of collaborative efforts among fusion teams.
 - Learn quickly with in-product guided help and learning modules.
 
-[Additional Info](009-SAPBuildApps.md)
+[Additional Info can be found here](009-SAPBuildApps.md)
+
+***
+> ***Important Additional resources***<br>
+> SAP offers a [demo system](https://build-sb1.eu10.build.cloud.sap/lobby) where you can explore SAP Build Apps free for 30 days.<br>
+> This [blog post](https://groups.community.sap.com/t5/sap-builders-blog-posts/announcing-the-sap-build-apps-sandbox/ba-p/128821) describes how to register:<br>
+> And this [tutorial from SAP](https://developers.sap.com/tutorials/appgyver-create-application.html) teaches you how to create your first application with SAP Build Apps:<br>
+***
+
 ### SAP Build Apps Capabilities
 And let's take a look at the [Capabilities](009-SAPBuildApps.md#Capabilities) of SAP Build Apps.
 ### Using SAP Build Apps
