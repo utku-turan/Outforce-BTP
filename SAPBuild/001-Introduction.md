@@ -75,6 +75,11 @@ You can use an [interactive form](008-InteractiveForms.md) to trigger a process 
 
 > Another example of [Process Automation]<br>
 
+***
+> ***Important External Resources***<br>
+> This [tutorial from SAP](https://developers.sap.com/mission.sap-process-automation.html) teaches you how to create your first Process Automation with SAP Build.
+> 
+***
 
 ## SAP Build Apps
 SAP Build Apps, previously known as *SAP AppGyver*, represents a visual development solution enabling the creation of sophisticated enterprise applications without coding. SAP Build Apps provides the capability to construct both *Web & Mobile Applications*, encompassing front-end user interfaces and event logic, as well as *Application Backends*, which involve back-end data management and server-based logic.
@@ -86,13 +91,18 @@ This tool facilitates:
 - Promotion of collaborative efforts among fusion teams.
 - Learn quickly with in-product guided help and learning modules.
 
-[Additional Info can be found here](009-SAPBuildApps.md)
+[Additional information can be found here](009-SAPBuildApps.md)
 
 ***
-> ***Important Additional resources***<br>
-> SAP offers a [demo system](https://build-sb1.eu10.build.cloud.sap/lobby) where you can explore SAP Build Apps free for 30 days.<br>
-> This [blog post](https://groups.community.sap.com/t5/sap-builders-blog-posts/announcing-the-sap-build-apps-sandbox/ba-p/128821) describes how to register:<br>
-> And this [tutorial from SAP](https://developers.sap.com/tutorials/appgyver-create-application.html) teaches you how to create your first application with SAP Build Apps:<br>
+> ***Important External Resources***<br>
+>
+> SAP Build Apps documentation of SAP can be found [here](https://help.sap.com/docs/build-apps/service-guide/what-is-sap-build-apps).
+> 
+> SAP also offers a [demo system](https://build-sb1.eu10.build.cloud.sap/lobby) where you can explore SAP Build Apps free for 30 days.<br>
+> This [blog post](https://groups.community.sap.com/t5/sap-builders-blog-posts/announcing-the-sap-build-apps-sandbox/ba-p/128821) describes how to register.<br>
+> And this [tutorial from SAP](https://developers.sap.com/mission.appgyver-low-code.html) teaches you how to create your first application with SAP Build Apps.<br>
+> [Another tutorial](https://developers.sap.com/group.sap-build-apps-process-trigger.html) to create a Sales Order App using SAP Build Apps.
+>  
 ***
 
 ### SAP Build Apps Capabilities
