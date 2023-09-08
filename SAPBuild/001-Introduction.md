@@ -153,6 +153,18 @@ Types of Business sites that you can create with SAP Build Work Zone:
 
 Details can be found [here](011-SAPBuildWorkZone.md#Features).
 
+
+***
+> ***Important External Resources***<br>
+>
+> [This tutorial](https://developers.sap.com/mission.launchpad-cf.html) will help you to create your first Business site using SAP Build Work Zone.
+> Steps:
+> - Create Your First Business Site with Apps
+> - Enrich Your Business Site With an App from the SAP Gateway Demo System
+> - Integrate a Custom-Developed SAPUI5 App into Your Business Site
+>
+***
+
 ### Administrative Areas
 It lets you create a dedicated environment for content management and collaboration within a defined scope, like a particular business department such as HR, IT, finance, procurement, and others.<br>
 Details can be found [here](011-SAPBuildWorkZone.md#administrative-areas).<br>
