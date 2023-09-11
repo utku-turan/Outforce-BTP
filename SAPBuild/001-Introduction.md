@@ -102,6 +102,10 @@ This tool facilitates:
 > This [blog post](https://groups.community.sap.com/t5/sap-builders-blog-posts/announcing-the-sap-build-apps-sandbox/ba-p/128821) describes how to register.<br>
 > And this [tutorial from SAP](https://developers.sap.com/mission.appgyver-low-code.html) teaches you how to create your first application with SAP Build Apps.<br>
 > [Another tutorial](https://developers.sap.com/group.sap-build-apps-process-trigger.html) to create a Sales Order App using SAP Build Apps.
+>
+> And [this tutorial](https://developers.sap.com/mission.sap-build-apps-create-trigger-process.html) will guide you on these:
+> - How to create a Sales Order Process using **SAP Build Process Automation**
+> - Hot to create a Sales Order App using **SAP Build Apps**
 >  
 ***
 
@@ -156,8 +160,9 @@ Details can be found [here](011-SAPBuildWorkZone.md#Features).
 
 ***
 > ***Important External Resources***<br>
->
-> [This tutorial](https://developers.sap.com/mission.launchpad-cf.html) will help you to create your first Business site using SAP Build Work Zone.
+> [This tutorial](https://developers.sap.com/mission.cp-starter-digitalexp-portal.html) teaches you to deliver your first SAP Fiori Launchpad Site.
+>  
+> [And this tutorial](https://developers.sap.com/mission.launchpad-cf.html) will help you to create your first Business site using SAP Build Work Zone.
 > Steps:
 > - Create Your First Business Site with Apps
 > - Enrich Your Business Site With an App from the SAP Gateway Demo System
