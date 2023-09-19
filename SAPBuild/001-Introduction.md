@@ -106,7 +106,8 @@ This tool facilitates:
 > And [this tutorial](https://developers.sap.com/mission.sap-build-apps-create-trigger-process.html) will guide you on these:
 > - How to create a Sales Order Process using **SAP Build Process Automation**
 > - Hot to create a Sales Order App using **SAP Build Apps**
->  
+>
+> This is another tutorial. <https://developers.sap.com/mission.sap-build-apps-social-media.html>
 ***
 
 ### SAP Build Apps Capabilities
