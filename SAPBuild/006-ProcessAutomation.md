@@ -31,6 +31,25 @@ SAP Build Process Automation provides the following product functionalities:
 > - Task Automation
 > - Pre-built Content
 
+### Working Modes
+![image](https://github.com/utku-turan/Outforce-BTP/assets/73386835/5d8f7fcb-50f8-4c58-a89d-fca6f24df7db)
+
+**Store:** Import pre-built processes and automations.<br>
+**Process Builder:** Build processes and automations from scratch.<br>
+**Reuse Workflows** from SAP Workflow Management.<br>
+**Reuse Automation projects** from SAP Intelligent Robotic Process Automation<br>
+**Hybrid mode** combining pre-packaged, process, automation, and workflow content<br>
+
+### The Store
+The Store is a pivotal element in SAP Build Process Automation. It provides ready-made content developed and maintained by SAP, available at no cost. This content encompasses readily deployable packages, comprising templated automations, workflows, processes, process visibility dashboards, forms, and actions.
+
+The Store content is categorized into three Project Types:
+- ***Actions:*** to accomplish the integrations. APIs are encapsulated as Actions within Actions projects. You can import pre-configured actions projects from the store.
+- ***Process Automation:*** content related to the former SAP iRPA product. Pre-defined automation templates and SDK packages for specific business scenarios.
+- ***Live Process:*** content related to the former SAP Workflow Management product. contained artifacts are mostly workflows or processes, business rules and business visibility scenarios. They are mostly pre-defined for a specific business scenario.
+
+Similar to the Process Automation content, when importing Live Process content, you are importing templates that need to be adjusted to your specific needs afterward. In a typical scenario, you will retrieve a **process template**, a **decisions project**, and a **process visibility project**. These artifacts might be complemented by additional material like SAP Cloud Application Programming Model applications. Each of these artifact types can be adjusted to your needs.
+
 ## Lobby
 Using the Lobby, you have the capability to create, manage, and deploy business processes and action projects that encapsulate APIs as integral components within your business scenarios. The project lists view enables you to assess existing projects or initiate new ones. You can effortlessly refresh, rearrange, filter based on type or collaborators, and execute actions like release, publication, and sharing.
 
@@ -41,7 +60,12 @@ Within the lobby, you have the ability to access and engage with various project
 - **My Inbox**: This designated space enables you to manage tasks from both desktop and mobile devices.
 
 A screenshot of the lobby:
+![image](https://github.com/utku-turan/Outforce-BTP/assets/73386835/784e381e-069a-4c6f-98c1-ec486126b44d)
 
+With an SAP Build Process Automation subscription, you can create and manage three project types:
+- ***Business Process Project:*** Create, deploy, automate, and run digital business process by configuring process artifacts. Examples of business process projects include Investment requests, invoice approvals, and sales order approvals.
+- ***Task Automation:*** to create and run bots
+- ***Actions Project:*** Embed external skills and capabilities into your business process projects by uploading an open API specification file in .json format. Actions projects allow external systems and solutions to communicate with SAP Build Process Automation.
 
 ## Using Conditions to Control the Flow
 Streamline your process to follow distinct conditional pathways without requiring any coding. These conditions implement an 'If/Else' rule, and the business process adjusts based on the conditions specified in the process's condition settings.<br>
