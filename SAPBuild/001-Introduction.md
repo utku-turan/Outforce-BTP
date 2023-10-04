@@ -48,13 +48,20 @@ Details of BPM and BPMS from SAP Build perspective can be found [here](005-Busin
 
 ## SAP Build Process Automation Details
 Let's take a look at some important [Topics](006-ProcessAutomation.md) regarding the SAP Build Process Automation Product.
-> - [Capabilities](006-ProcessAutomation.md#product-capabilities)
-> - [Lobby](006-ProcessAutomation.md#Lobby)
-> - [Conditions](006-ProcessAutomation.md#using-conditions-to-control-the-flow)
-> - [Decision Logic](006-ProcessAutomation.md#create-and-configure-decision-logic-in-the-process)
+- [Capabilities](006-ProcessAutomation.md#product-capabilities)
+- [Working Modes](006-ProcessAutomation.md#working-modes)
+- [The Store](006-ProcessAutomation.md#the-store)
+- [Lobby](006-ProcessAutomation.md#Lobby)
+- [Conditions](006-ProcessAutomation.md#using-conditions-to-control-the-flow)
+- [Decision Logic](006-ProcessAutomation.md#create-and-configure-decision-logic-in-the-process)
+- [Release, Deploy, Run & Monitor the process](006-ProcessAutomation.md#release-deploy-run-and-monitor-the-process)
 
 ### Process Visibility
 Uncover the status of your process through the [visibility functionalities](007-ProcessVisibility.md) offered by SAP Build Process Automation.<br>
+
+### Actions
+[Encapsulating the APIs of Remote Systems Using Actions Projects](006-ProcessAutomation.md#actions)
+[Using APIs for Integration](006-ProcessAutomation.md#using-apis-for-integration)
 
 ### Robotic Process Automation
 SAP Build RPA is the new product replacing (or rebranding) SAP Intelligent RPA.<br>
@@ -62,10 +69,8 @@ You can find some details [here](006-ProcessAutomation.md#robotic-process-automa
 
 ## Hands-on
 And, here are the most important hands-on topics of SAP Build Process Automation:<br>
-
 ### Interactive Forms
 You can use an [interactive form](008-InteractiveForms.md) to trigger a process to start or to add an approval step in the process.<br>
-
 ### Automations
 > You can check this [step-by-step guide]() on how to create an automation that reads some records from an Excel file and processes according to a condition.<br>
 
