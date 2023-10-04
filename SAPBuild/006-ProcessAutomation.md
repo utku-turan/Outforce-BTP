@@ -97,10 +97,38 @@ To ensure a decisive output for all varieties of sales orders, consider adding a
 > [Here](https://education.hana.ondemand.com/education/pub/mmcp/index.html?show=project!PR_EE279D39FC3840A1:demo#TS_5D8AC4879BBB4A488802DA6DD4BEE8E4) is the link to SAP's  demo for creating and configuring Decision Logic in the process.<br>
 > And here is the [video]().
 
+## Release, Deploy, Run and Monitor the Process
+After you have finished modeling your process with various forms, it is time to run it. Before you can run your process project, you have to first release and deploy it.
+
+- The first step is to *release* a process project which creates a snapshot of its current status and gives it a dedicated version number. If you are releasing your process project for the first time, the version number will be 1.0.0.
+- *Deploying* your process project can only be done after its release. The deployment makes it available for others to use. Please note that you cannot edit released or deployed process projects. If you need to make changes to an already released process project and deploy it, you will need to edit the process project and then re-release and re-deploy it.
+- *Running* the process will demonstrate that the workflow has been triggered and the approval process project has started. To do this, you have to open the process builder of the deployed version and choose the form to get to the URL which is opened from the web browser.
+- Now that your process project is running, we need to follow how well it is working. *Monitoring* business processes is key to successful automation. Using monitoring capabilities, you can proactively and consistently monitor process performance, identify any issues in the process project, and take necessary actions to ensure business process continuity.
+
 ## Robotic Process Automation
 Robotic process automation (RPA) is a software technology that makes it easy to build, deploy, and manage software robots that emulate humans actions interacting with digital systems and software.<br>
 Automations can expedite your processes and mitigate the risk of errors associated with manual data transfers.<br>
 
+Robotic Process Automation (RPA) accelerates the digital transformation of business processes by automatically replicating tedious actions that have low added value. By bringing Chat Bots into the equation, using APIs rather than just UI elements, and combining Machine Learning (ML) and AI, we can push RPA to the next level, and the journey has just started.
+
+### Business Value of Automations
+![image](https://github.com/utku-turan/Outforce-BTP/assets/73386835/e1ddecc0-8394-453e-91d4-ca79f2b0a114)
+
+### Use Cases for Automations
+Let's look at some use cases covered by automations in SAP Build Process Automation. These include the following:
+- Extracting data using different connectors and putting that data into a finance system
+- Searching for invoice numbers in countless ERP instances
+- Logging on to multiple SAP ERP Central Component instances, collecting purchase requisitions, and distributing them to shared services
+
+During the course of a working day, users are often unaware of all the simple tasks they complete. Hidden tasks get lost in their daily work. At first you think you only need to automate the boring tasks. However, consider also the short, hidden tasks, where the potential for automation is lower (approximately 50%). These tasks may be performed, for example, 40 times a day or more. If for example, 50 people are doing the same thing, the potential for time saving is significantly higher than the time saving for boring tasks, estimated at approximately 12 full-time equivalents.
+
+There are four main criteria for use cases:
+- Manual and repetitive actions
+- High volume
+- Multiple applications and systems
+- Workaround for native integrations (for ex: a legacy application)
+
+### Task Automation
 Task automation can run in two ways:
 - *Unattended mode*: Bots are working autonomously with human supervision only – there is no human intervention in the part of the process RPA is running.
 - *Attended mode*: The attended mode, in which bots will work with humans to assist them, to help the bot.
@@ -110,3 +138,16 @@ The ***Automation Editor*** of SAP Build Pro is composed of four main parts:
 - The Workflow: the list of steps inside your automation
 - The Right-Side Panel:  add steps, check inputs and outputs, automations, activities, data, controls
 - The Console: Design and test console, errors and warnings, variables
+
+### Using the Desktop Agent to run Automations
+The Desktop Agent is a component that is installed locally on user desktops. It executes automation projects that launch and run applications of various kinds, reads information from screens, enters data, clicks options, and processes data. Automation projects are assigned to tenants running on the Desktop Agent. You can see what your Desktop Agent is always doing thanks to the convenient menu that is always accessible from your computer’s taskbar while your Desktop Agent is ready or active.
+
+When it’s installed, the Desktop Agent is configured to start at Windows logon by default. The Agent can run in the attended or unattended mode. In the attended mode, you start the automations by clicking on them, and in the unattended mode, the automations run automatically without your intervention.
+
+Using the Desktop Agent, you can perform different actions to run and monitor your projects, such as:
+- Run projects
+- Manage tenants
+- Configure the connection settings
+- Change the agent mode
+- Monitor the Agent
+- Collect and manage traces
