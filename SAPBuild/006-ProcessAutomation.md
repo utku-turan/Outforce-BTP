@@ -105,6 +105,80 @@ After you have finished modeling your process with various forms, it is time to 
 - *Running* the process will demonstrate that the workflow has been triggered and the approval process project has started. To do this, you have to open the process builder of the deployed version and choose the form to get to the URL which is opened from the web browser.
 - Now that your process project is running, we need to follow how well it is working. *Monitoring* business processes is key to successful automation. Using monitoring capabilities, you can proactively and consistently monitor process performance, identify any issues in the process project, and take necessary actions to ensure business process continuity.
 
+### Monitoring
+Monitoring business processes is one of the key aspects of successful automation. Using monitoring capabilities, you can proactively and consistently monitor process performance, identify any issues in the process, and take necessary actions to ensure business process continuity.
+
+SAP Build Process Automation provides different applications for monitoring and managing different process skills. The applications include Process and Workflow Instances, Automation Jobs, Acquired Events, and so on. These applications are available under the Monitor tab in Application Development studio.
+
+All deployed processes can be accessed by following Manage → Processes and Workflows application.
+
+**Monitor -> Process and Workflow Instances**<br>
+In there, you will see all the running, erroneous, and suspended process instances. Use the filter bar to get a more customized view of the process instances based on different statuses such as running, completed, suspended, terminated, and so on. To explore different process monitoring options, go to the Instances list, and choose your new process instance that was just triggered via the start form.
+
+Observe the process instance information which provides the context for the process. You can see actual process data flowing across different activities in the process, and the execution logs where you can trace how the entire process has been progressing. You can also see some basic runtime information for each activity such activity name, who started it, when was it completed, and so on.
+
+**Monitor -> Automation Jobs**<br>
+![image](https://github.com/utku-turan/Outforce-BTP/assets/73386835/7cad5b29-bfd3-4567-8077-e3dfe4bafedb)
+
+**Visibility Scenario -> Copy for Dashboard Link**<br>
+![image](https://github.com/utku-turan/Outforce-BTP/assets/73386835/a9d2261a-1f62-45fd-bc13-2f3dc032e72b)
+![image](https://github.com/utku-turan/Outforce-BTP/assets/73386835/b2b6ba61-270d-4540-9b4d-7d7b18d2189c)
+
+Open the Visibility Scenario Dashboard by pasting the dashboard link in a browser window. The dashboard is there. The performance indicators are filling up. Depending on the time it has taken, there might be different results. Please now feel free to explore the details and discover what is included in each tile. You could even navigate into single instances.
+
+## Actions
+In SAP Build Process Automation, you use Actions to accomplish the integration. Application Programming Interfaces (APIs) from the source and target systems to interact with, are encapsulated as Actions within Actions projects. Those Actions projects are then held in an Actions projects library and from there, can be integrated into the business processes.
+
+![image](https://github.com/utku-turan/Outforce-BTP/assets/73386835/6d167c9c-5e8b-4856-a1ce-6ff28cbb54c4)
+
+This approach offers various advantages compared to direct API integration into the respective process:
+- There is an abstraction of the API. The process developer does not need to know exactly about technical details of the API.
+- APIs can be adjusted to the process developers needs, only exposing endpoints and data that is required or safe to use by the process developers.
+- Actions can be configured once, and then be reused across different business process projects.
+- Actions projects allow versioning and thus, make it easier to deal with changing process requirements or changing API versions.
+
+As Actions rely on the OpenAPI Specification standard for API definition, they aren't limited to APIs from SAP systems, but provide the option to integrate any API that is or can be described in the OpenAPI Specification. A large number of API definitions, especially for but not limited to SAP solutions, can be found in the SAP Business Accelerator Hub.
+
+The Actions Editor lets you compose multiple Actions from an underlying API into an Actions project. Note that you don't have to include all possible parameters of an API endpoint as parameters in the respective Actions, and you also don't have to include all available response body fields in the response provided through the Action. By that, only information relevant to the business process can be included.
+
+Once your Actions have been defined, the project needs to be released into a version and then published to the Actions library.
+
+![image](https://github.com/utku-turan/Outforce-BTP/assets/73386835/156c75a1-b859-400b-b120-77a9547df079)
+
+After APIs have been encapsulated in an Actions project and published to the library, adding them as action to a process is quite simple. Select the corresponding step type Actions and browse the Actions library. Select the action required in your process, and choose Add. Once the Action step is included in your process, make sure to define its parameters:
+- **Destination variable:** A process variable that will hold the technical SAP BTP destination name to be used for accessing the underlying API at process runtime. This variable can be filled with a destination name during deployment of the process.
+- **Inputs:** Mapping of process content to all parameters, that the action requires in order to be performed (for example, the Sales Order Number, when retrieving a Sales Order entry from an SAP S/4HANA system).
+- **Outputs:** Overview of the Actions call result, as defined in the respective action.
+
+In order to use your configured Actions in an SAP Build process, the Actions project needs to be deployed and released to the Library. This procedure gives you governance over which APIs are ready to be used by process developers and which APIs still need refinement.
+
+You and your colleagues are building a process that needs to read Sales Order data from your SAP S/4HANA system and at a later stage, also write Sales Order data back to the system. Now you're faced with the challenge of interacting with that SAP S/4HANA system in the process. As a solution to this challenge, SAP Build Process Automation provides the capability of Actions projects. You have already created an Actions project that encapsulates the Read Sales Order API endpoint of the SAP S/4HANA Sales Order API. Now you want to make use of the Action within a process. For that, you'll use the Action step type. As the process also needs technically to be able to reach the SAP S/4HANA system, a destination will be required too.
+
+When connecting remote systems with your SAP BTP environment, it's vital to create a Destination for them. The Destination acts as sort of a technical address of the system to be connected. Destinations can include additional information such as credentials for access authentication and authorization.
+
+## Using APIs for Integration
+### REST APIs
+*APIs (Application Programming Interfaces)* define how components can be contacted by other components in order to trigger certain functionality or exchange data.
+
+*A REST API (also RESTful API)* is an API that adheres to the guidelines and constraints defined by the REST architectural style. It particularly puts emphasis on the interaction and communication of such components.
+
+![image](https://github.com/utku-turan/Outforce-BTP/assets/73386835/598c6799-60f5-44d2-a0dd-f73c9774dedd)
+
+### Discovering SAP Build Process Automations APIs in SAP Business Accelerator Hub
+When entering the SAP API Business Hub and searching for the product SAP Build Process Automation, you'll find the according API package. Following, you find the different APIs it contains, and one example each on how these APIs could be leveraged.
+
+![image](https://github.com/utku-turan/Outforce-BTP/assets/73386835/c6dcba01-1e53-47e8-bdc2-5345154835ab)<br>
+![image](https://github.com/utku-turan/Outforce-BTP/assets/73386835/086879dc-1b50-4311-94aa-4b4245be6790)<br>
+
+### Finding an Endpoint to Use
+Let's say you would like to find out how to trigger a new process or workflow instance using the SAP Build Process Automation APIs.
+
+![image](https://github.com/utku-turan/Outforce-BTP/assets/73386835/eea806ee-231a-45cd-bf9f-bca5f9282bb6)<br>
+![image](https://github.com/utku-turan/Outforce-BTP/assets/73386835/ed91a008-c9e8-4e95-bc5d-a48a258ef41a)<br>
+![image](https://github.com/utku-turan/Outforce-BTP/assets/73386835/77355772-a52c-44e8-a8e4-a41975be2aff)<br>
+![image](https://github.com/utku-turan/Outforce-BTP/assets/73386835/45992033-8cee-4da0-9465-09e84445662c)<br>
+
+
 ## Robotic Process Automation
 Robotic process automation (RPA) is a software technology that makes it easy to build, deploy, and manage software robots that emulate humans actions interacting with digital systems and software.<br>
 Automations can expedite your processes and mitigate the risk of errors associated with manual data transfers.<br>
