@@ -11,7 +11,7 @@ My notes from the SAP Training [Discovering SAP Business Technology Platform](ht
 
 ![image](https://github.com/user-attachments/assets/88a98448-a910-4b3d-9153-e8b2bd372340)
 
-**Cloud Terminology:**
+### Cloud Terminology
 - Cloud computing can lower your costs by allowing you to use only the resources you need on demand.
 - Cloud computing offerings are available in different deployment models and service models.
 - Cloud landscapes are clustered over several regions to ensure higher availability and lower latency.
@@ -56,3 +56,19 @@ My notes from the SAP Training [Discovering SAP Business Technology Platform](ht
 - **Accelerate move to Cloud**
 
 ## SAP BTP: Architecture and Services
+![image](https://github.com/user-attachments/assets/0c3aa458-f7a1-4a5a-9c69-03e63195fe55)
+
+**SAP BTP Functionality Areas:**
+- Application Development
+- Automation
+- Integration
+- Data & Analytics
+- Artificial Intelligence
+
+**SAP BTP Commercial Models:**
+- *Pay-As-You-Go:* start small and grow without constraints. start using cloud services in your production environment with no upfront cost, no minimum usage requirements, and no financial commitments.
+- *CPEA: Cloud Platform Enterprise Agreement:* consumption of cloud credits based on actual usage. These cloud credits get paid upfront like a pre-paid model. Get access to all services available under CPEA and configure them in your global account with just one contract.
+- *Subscription:* choose a fixed set of services for a fixed rate, regardless of actual consumption. The contract includes the exact services you can use in your project and will be provisioned in your global account for entitlements.
+- *Free Tier Services:* limited by usage capacity on a monthly basis. They do not expire. You can consume them for as long as your account is active, and you have not reached the service plan limits. You can upgrade to a paid service plan through the SAP BTP cockpit – no technical migration required.
+
+### Architecture of SAP BTP
