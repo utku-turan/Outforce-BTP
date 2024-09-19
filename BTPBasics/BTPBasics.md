@@ -72,3 +72,59 @@ My notes from the SAP Training [Discovering SAP Business Technology Platform](ht
 - *Free Tier Services:* limited by usage capacity on a monthly basis. They do not expire. You can consume them for as long as your account is active, and you have not reached the service plan limits. You can upgrade to a paid service plan through the SAP BTP cockpit – no technical migration required.
 
 ### Architecture of SAP BTP
+![image](https://github.com/user-attachments/assets/bfe0e681-847d-4052-9f76-466f66fa86a5)
+![image](https://github.com/user-attachments/assets/6c10a8c8-e487-4d29-8f79-f591c6c257e7)
+![image](https://github.com/user-attachments/assets/6df943dd-bbe8-49ab-b519-e041c0b32ee4)
+
+
+#### Global Account
+- A global account is the realization of a contract you made with SAP.
+- A global account is used to manage directories, subaccounts, members, entitlements, and quotas.
+- You receive entitlements and quotas to use platform resources per global account and then distribute the entitlements and quotas to the subaccount for actual consumption.
+
+#### Directory
+- Directories allow you to organize and manage your subaccounts according to your technical and business needs.
+- A directory can contain directories and subaccounts to create a hierarchy.
+- Using directories to group other directories and subaccounts is optional - you can still create subaccounts directly under your global account.
+- You can create a hierarchical structure that is 7 levels deep.
+ - The highest level of a given path is always the global account and the lowest is a subaccount, which means that you can have up to 5 levels of directories.
+  
+#### Subaccount 
+- Subaccounts let you structure a global account according to your organization's and project's requirements with regard to members, authorizations, and entitlements.
+- A global account can contain one or more subaccounts in which you deploy applications, use services, and manage your subscriptions.
+- Subaccounts in a global account are independent of each other.
+- This is important to consider with respect to security, member management, data management, data migration, integration, and so on when you plan your landscape and overall architecture.
+
+#### Entitlements
+- An entitlement is your right to provision and consume a resource.
+- Entitlements are the service plans that you're entitled to use.
+- You could also say an entitlement is a booked option or are the booked services you can use in your SAP BTP global account.
+
+#### Region
+- You can deploy applications in different regions.
+- Each region represents a geographical location (for example, Europe, US East) where applications, data, or services are hosted.
+- A region is chosen at the subaccount level.
+- For each subaccount, you select exactly one region.
+- The selection of a region is dependent on many factors: for example, application performance (response time, latency) can be optimized by selecting a region close to the user.
+- The global account itself is also running in a region.
+- **Infrastructure:** The infrastructure layer of a region is either provided by SAP or by one of SAP's Instrastructure as a Service (IaaS) partners Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform (GCP), and Alibaba Cloud.
+- **Environments:** Environments constitute the actual platform as a service offering of SAP BTP that allows for the development and administration of business applications. Each environment comes equipped with the tools, technologies, and runtimes that you need to build applications.
+- **Services:** Services enable, facilitate, or accelerate the development of business applications and other platform services on SAP BTP. You find all available services in the SAP Discovery Center.
+- **Data:** Your business and application data is managed through services like the SAP HANA Cloud service or the SAP Datasphere service.
+- **Applications:** The business applications that you deploy in a region build on top of, and make use of, the layers underneath.
+
+#### Subaccount
+Subaccounts hold:
+- **Applications:** Business applications or custom developments running and operating in this subaccount - they can even get bounded to services and subscriptions inside of this subaccount if needed.
+- **Services:** Service instances created and running in this subaccount.
+- **Subscriptions:** Service subscriptions and their capabilities accessible in this subaccount.
+
+Each subaccount in SAP BTP is linked to a specific region, which determines the physical location where applications, data, or services are hosted. The assigned region is important for deploying applications and accessing the SAP BTP cockpit using the corresponding regional cockpit URL. However, the region of your subaccount is not dependent on your geographical location. For instance, even if you are based in the United States, your subaccount could be operating in a region in Europe.
+
+The entitlements and quotas that have been purchased for a global account have to be assigned to the individual subaccounts.
+
+- **Quota:** represents the numeric quantity that defines the maximum allowed consumption of a resource. In other words, how much of a service plan you're entitled to use.
+- **Service plan:** is the representation of the costs and benefits for a given variant of a particular service. For instance, a database may be configured with various "T-shirt sizes", each of which is a different service plan.
+
+#### Environment
+
