@@ -205,4 +205,37 @@ Benefits:
 - **Accelerates Innovation:** By providing pre-configured solutions and support, the platform enables organizations to innovate faster and implement new solutions quickly.
 - **Low-Touch Enablement:** Offers a self-service online tool, enabling users to independently explore, learn, and implement solutions with minimal direct intervention.
 
+
 ### Connectivity in SAP BTP
+**SAP Connectivity Service:**
+- Provides a connectivity proxy to access on-premise resources via the Cloud Connector.
+- Offers secure connectivity from SAP BTP to on-premise systems, ensuring encrypted communication.
+
+**SAP Destination Service:**
+- Retrieves and stores the technical details required to connect an application to a remote service, whether it’s through the internet or the Cloud Connector.
+- Manages connections to remote services by specifying destinations with defined parameters, enabling applications to interact with external resources.
+
+**Cloud Connector:**
+- Acts as a bridge between SAP on-premise backends (or supported non-SAP systems) and SAP BTP subaccounts.
+- Creates a bidirectional encrypted tunnel, ensuring secure communication between on-premise systems and the cloud.
+- Simplifies setup and provides a clear configuration of shared systems, allowing selective exposure of on-premise resources without revealing the full internal landscape.
+- Key Features:
+  - ***Reverse Invoke Proxy:*** Allows SAP BTP to securely access on-premise resources.
+  - ***High Availability:*** Cloud Connector can be configured for high availability to avoid it becoming a single point of failure.
+  - ***Monitoring & Alerting:*** Provides options for monitoring and setting up alerts to ensure connectivity is reliable and uninterrupted.
+- Usage of the Cloud Connector:
+  - Setup: Install and configure the Cloud Connector within your on-premise landscape.
+  - Define Shared Resources: Configure which on-premise system resources will be accessible through the Cloud Connector.
+  - Consume Destinations: Access these shared resources from SAP BTP using the Destination service, which manages the technical information for remote connections.
+
+#### Connectivity Types
+![image](https://github.com/user-attachments/assets/3cbb8fb0-9208-4fc0-ba65-5f9760776662)
+
+In general, there are two primary types of connections to and from SAP BTP:
+- **Internet Connectivity:** This type is used when accessing capabilities or data from resources available on the internet. It typically employs HTTPS for secure communication.
+- **Cloud to On-Premise Connectivity:** This is utilized to leverage existing resources within your on-premise landscape. It requires the Cloud Connector to establish a secure connection, facilitating bi-directional communication between the cloud and on-premise systems.
+
+Both connection types enable seamless integration and interaction with various resources, enhancing the overall functionality of SAP BTP.
+
+# SAP BTP: Application Development and Automation
+## Application Development Overview
