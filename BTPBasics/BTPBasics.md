@@ -238,4 +238,43 @@ In general, there are two primary types of connections to and from SAP BTP:
 Both connection types enable seamless integration and interaction with various resources, enhancing the overall functionality of SAP BTP.
 
 # SAP BTP: Application Development and Automation
-## Application Development Overview
+## Overview
+### Application Development Overview
+![image](https://github.com/user-attachments/assets/18317854-18ba-46e2-aa93-bf8eaf840231)
+
+SAP advises maintaining a clean core in software and utilizing extensions rather than modifications. This approach encourages the adoption of new custom development concepts to enhance your software portfolio. The application development capabilities of SAP BTP provide a suite of solutions designed to simplify the creation of application extensions or custom applications. While these tools are optimized for SAP applications, they also support the extension of third-party applications.
+
+SAP offers a diverse range of tools and frameworks for both frontend and backend developers. Additionally, there are tools available for low-code or even no-code development experiences. This comprehensive toolset enables the creation of a unified user experience for end-users.
+
+### Automation Overview
+![image](https://github.com/user-attachments/assets/753e416b-9e6a-4c1d-88ce-9b340b1143c5)
+
+To automate your business processes for greater agility and reduced manual tasks, the automation capabilities of SAP BTP can be invaluable. These capabilities allow you to build easily, automate swiftly, and enhance agility through visual drag-and-drop tools and prebuilt, industry-specific content.
+
+## Low-Code/No-Code with SAP Build
+- No-code development is primarily intended to help employees that are process experts to automate tasks, build applications, or otherwise optimize their own business activities.
+- Professional developers use no-code tools to accelerate their basic development work so that they can focus on more complicated concepts.
+- Low-code development is designed to allow employees with software knowledge, such as process development experts and professional developers, to build and integrate end-user processes and applications, and to create WYSIWYG (What You See Is What You Get) building blocks for no-code development.
+- With SAP Build, you can create apps, automate processes, and design unified experiences using simple drag-and-drop tools. This empowers citizen developers to contribute to your development and automation projects. SAP Build enables you to build visually, integrate effortlessly, and collaborate efficiently.
+
+![image](https://github.com/user-attachments/assets/dea0753b-521c-43f6-b429-2955bf9a5275)
+
+SAP Build comprises three key components for creating no-code projects:
+- **SAP Build Apps:** unique development experience, enabling rapid innovation through a user-friendly interface for building customized apps on top of SAP solutions.
+  - With drag-and-drop functionality, users can design UIs using a consistently updated component library, requiring no developer experience.
+  - It allows for creating logic with visual flow functions and supports individual styling and advanced theming, ensuring a seamless user experience across web, iOS, and Android platforms.
+  - Data binding is straightforward through OData and REST APIs, and data processing is efficient with over 500 predefined functions and formulas for calculations, text formatting, and dynamic styles.
+- **SAP Build Process Automation:** enables organizations to automate workflows and processes visually.
+  - Citizen developers can easily build and enhance business processes with minimal IT support, utilizing no-code features.
+  - User experience is enriched with capabilities like the process and forms builders, both featuring drag-and-drop functionalities.
+  - Advanced workflow management tools, including business rules, process visibility, and AI, are also integrated.
+  - Embedded robotic process automation and reusable components like bots for a comprehensive solution combining workflow and process automation.
+- **SAP Build Work Zone:** serves as a centralized hub for accessing relevant business applications, processes, and communication.
+  - create digital workplace solutions with drag-and-drop simplicity, enhancing productivity and engagement.
+  - unified, intelligent, and personalized work experience, integrating SAP applications, third-party services like SharePoint Online and Microsoft Teams, and custom applications developed with SAP Build Apps or Process Automation.
+  - Administrators and users have various options to quickly share and find information, collaborate through blogs, multimedia, surveys, wiki pages, and more.
+
+## Development Tools and Frameworks
+### SAP Business Application Studio (BAS)
+- New development environment offering a modern, flexible, and extensible platform for building applications that meet the needs of today's enterprises.
+- 
