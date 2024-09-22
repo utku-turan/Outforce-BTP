@@ -277,4 +277,65 @@ SAP Build comprises three key components for creating no-code projects:
 ## Development Tools and Frameworks
 ### SAP Business Application Studio (BAS)
 - New development environment offering a modern, flexible, and extensible platform for building applications that meet the needs of today's enterprises.
-- 
+- modern environment specifically designed for business application development, used to develop application extensions on the SAP BTP.
+- a unified development experience for both professional and citizen developers, regardless of the devices or operating systems they use.
+- accessible via a web browser, it retains the familiar feel of desktop tools like Microsoft Visual Studio Code.
+- By subscribing to this service in your SAP BTP subaccount, you gain access to a comprehensive development environment that includes optimized editors, terminal access, debuggers, and command line functionality tailored for various use cases.
+- predefined roles for developers, extension developers, and administrators.
+- ***Dev Spaces:*** isolated environments equipped with specialized tools and pre-installed runtimes.
+- These spaces simplify and expedite the setup process for different application types, such as SAP Fiori, Full Stack Cloud Applications, and SAP HANA Native Applications.
+- enhance your environment with extra extensions from the Open VSX Registry, reflecting its open-source nature.
+- supports low-code and no-code development, allowing users to model CDS models through a graphical editor or create SAP Fiori Elements applications via guided procedures.
+
+![image](https://github.com/user-attachments/assets/afc35421-0e41-4d52-95f5-7f78f0d57d34)
+![image](https://github.com/user-attachments/assets/6bd19699-78f6-4325-8679-de38e33ffecd)
+
+### ABAP Development Tools
+- The ABAP Development Tools (ADT) are a set of tools for ABAP programming built on the Eclipse IDE.
+- They can be used for ABAP programming for on-premise systems and for coding in the ABAP environment of SAP BTP.
+- Allow ABAP developers to carry out development tasks utilizing the features of the ABAP application server in an Eclipse-based integrated development environment (IDE).
+
+### SAP BTP Cockpit
+- The SAP BTP cockpit is the main hub for cloud development, including deployment and administrative tasks.
+- It is the preferred tool for all operational and administration-related activities.
+- Developers use it to deploy applications on SAP BTP or integrate services provided by SAP BTP into their applications.
+- Numerous services are beneficial for software development, such as:
+  - SAP Business Application Studio
+  - SAP HANA Cloud
+  - Cloud Transport Management
+  - Feature Flags Service
+  - And many others
+- The SAP BTP cockpit is a key tool for administrators.
+
+### Development Frameworks from SAP
+**SAP UI Development Toolkit for HTML5 (SAPUI5):**
+- SAPUI5 is built on the Model-View-Controller (MVC) design principle and provides a modern, flexible framework for developing web applications tailored to business requirements.
+- It includes tools for planning, testing SAPUI5 apps, managing icons, and more.
+
+**Java and Spring:** 
+- Using the Cloud Foundry or Kyma runtime, you can develop and run Java-based software projects directly on SAP BTP, ensuring easy integration with your enterprise systems.
+- These applications can also consume SAP BTP services. Furthermore, frameworks such as Spring and the SAP Cloud Application Programming Model can be utilized.
+
+**SAP Cloud Application Programming Model:** 
+- This is a comprehensive set of languages, libraries, and tools for creating enterprise applications, centered around a domain model powered by SAP HANA Core Data Services (CDS).
+- It supports both service and application development, allowing integration with SAP Fiori projects.
+- The SAP Cloud Application Programming Model is flexible, supporting both Node.js and Java stacks.
+
+**SAP Fiori User Experience:** 
+- SAP Fiori design system includes design languages for different technologies such as web, native mobile, and conversational platforms.
+- Each design language defines visual styles, controls, layouts, and common functions, and includes guidelines and resources for developers and designers.
+- SAP Fiori can be developed using various technologies, with SAPUI5 as the main HTML5 reference.
+- Native mobile languages are available for iOS and Android.
+
+**SAP's Mobile Development Tools:** <br>
+To create mobile applications, SAP offers a range of technologies:
+- ***SAP Mobile Development Kit (MDK):*** Create multi-channel apps with JavaScript, which can be converted into native apps for iOS, Android, or web.
+- ***SAP BTP SDK for iOS:*** Swift-based development of native apps for iOS, with extensions for reusable SAP content.
+- ***SAP BTP SDK for Android:*** Android Studio-based development of native Android apps, with support for tools like SAP Fiori Guidelines for Android and the SAP BTP SDK Wizard.
+
+**ABAP RESTful Application Programming Model:**
+- This model allows developers to efficiently create SAP HANA-optimized, enterprise-ready OData-based Fiori UI services and Web APIs, both in the cloud and on-premise.
+- It leverages technologies like ABAP Core Data Services (CDS) for rich data models, OData services for service model infrastructure, and ABAP-based application services for custom logic, alongside SAPUI5-based user interfaces.
+
+
+## Continuous Integration, Delivery and Deployment
