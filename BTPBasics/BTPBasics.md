@@ -339,3 +339,46 @@ To create mobile applications, SAP offers a range of technologies:
 
 
 ## Continuous Integration, Delivery and Deployment
+A key goal in software development is to automate as many steps as possible to reduce manual effort. With continuous concepts, there are various ways to achieve this.
+
+**Continuous Integration:**
+- The different types of Continuous X are not isolated but build on each other, with Continuous Integration as the foundation.
+- It involves several principles and ensures that a stable build is always available.
+- Continuous Integration merges code changes into a single software project, triggering automated tests and builds from this unified codebase.
+
+**Continuous Delivery:**
+- Building on Continuous Integration, Continuous Delivery ensures the software is always ready for deployment to production.
+- Deployment can either be manually triggered (e.g., by pressing a button) or automatically following a deliberate action (e.g., after committing changes to the main version control line).
+- Key points about Continuous Delivery:
+  - The software is always ready for deployment to production.
+  - A human decision triggers deployment to production.
+  - Feedback from production is quickly integrated into the team's backlog.
+
+**Continuous Deployment:**
+- Extending Continuous Delivery, Continuous Deployment means that each code change triggers an automatic deployment to production.
+- It's important to note that the distinction between Continuous Delivery and Continuous Deployment is sometimes blurred, so it's essential to clarify these terms in discussions about CI/CD.
+- In Continuous Deployment, the deployment to production is automated, unlike the manual trigger used in Continuous Delivery.
+
+### CI/CD Pipeline
+![image](https://github.com/user-attachments/assets/cdb5de84-32aa-41fd-a692-4186a2e4ae23)
+
+- A pipeline, at its core, is a sequence of activities executed in a predefined order.
+- Continuous Integration, Continuous Delivery, and Continuous Deployment together form the CI/CD pipeline, with the aim of maximizing automation in software development and minimizing manual tasks.
+- By combining all these components, you can establish a fully automated pipeline to build, test, and deploy your application.
+- In summary, Continuous Integration (CI) involves adopting agile principles, while Continuous Delivery/Deployment (CD) combines agile techniques with a robust delivery process.
+- The objective is to validate every change (commit), ideally through automation, to ensure reliable delivery.
+
+
+# SAP BTP: Integration
+## API
+
+
+## SAP Integration Suite
+- Cloud Integration
+- API Management
+- Open Connectors
+- Integration Advisor
+
+
+
+
