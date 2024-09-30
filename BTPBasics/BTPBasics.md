@@ -526,6 +526,9 @@ With SAP Datasphere, organizations can:
   - ***Collaboration:*** SAC's collaboration tools enhance teamwork, regardless of location, with features like context-based chat, data approval simulations, and notifications, simplifying the collective decision-making process.
 
 
+# SAP BTP: Artificial Intelligence (AI)
+## Artificial Intelligence - Introduction
+
 
 
 
