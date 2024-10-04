@@ -527,7 +527,10 @@ With SAP Datasphere, organizations can:
 
 
 # SAP BTP: Artificial Intelligence (AI)
-## Artificial Intelligence - Introduction
+
+![image](https://github.com/user-attachments/assets/8b435407-a6a7-4102-a5ff-c4cb4d356161)
+
+## AI integrated into business processes and solutions
 
 
 
